@@ -1,0 +1,1 @@
+console.log("Welcome to Yumz Restaurant. Take a seat...");
