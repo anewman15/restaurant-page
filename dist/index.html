@@ -8,32 +8,20 @@
   <title>Yumz Chicken</title>
 </head>
 <body>
-  <h1 class="h1 text-center font-weight-bold p-3 mx-auto my-5">Yumz Chicken</h1>
-  <div class="container-fluid row">
-    <div class="content col-lg-10 m-auto">
-      <div class="tabs-x align-center tabs-above tab-bordered">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item">
-                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-expanded="true">Home</a>
-          </li>
-          <li class="nav-item">
-                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact">Contact</a>
-          </li>
-          <li class="nav-item">
-                <a class="nav-link" id="menu-tab" data-toggle="tab" href="#menu" role="tab" aria-controls="menu">Menu</a>
-          </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-          <div class="tab-pane fade" id="menu" role="tabpanel" aria-labelledby="menu-tab">...</div>
-        </div>
+  <h1 class="">Yumz Chicken</h1>
+  <div class="content">
+    <div class="tabs-wrapper">
+      <div class="logo">
+        <a href=""><img src="../src/logo.png" alt=""></a>
       </div>
+      <div id="tab-home" class="tab">Home</div>
+      <div id="tab-menu" class="tab">Menu</div>
+      <div id="tab-contact" class="tab">Contact</div>
     </div>
+    <div id="content-home" class="tab-content">Home Page</div>
+    <div id="content-menu" class="tab-content">Menu Page</div>
+    <div id="content-contact" class="tab-content">Contact Page</div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="./main.js"></script>
 </body>
 </html>
