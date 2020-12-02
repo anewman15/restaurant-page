@@ -1,5 +1,6 @@
-export default function displayTabbedNavigation (containerDiv) {
-  containerDiv.innerHTML = `
+const displayTabbedNavigation = () => {
+  const contentContainer = document.getElementById('content-container');
+  contentContainer.innerHTML = `
                                 <div class="tabs-wrapper">
                                   <div class="logo">
                                     <a href=""><img src="../src/logo.png" alt=""></a>
@@ -10,3 +11,17 @@ export default function displayTabbedNavigation (containerDiv) {
                                 </div>
                               `
 }
+
+const resetContentWrapper = () => {
+  const contentContainer = document.getElementById('content-container');
+  if (document.getElementById('content-wrapper')) {
+    const contentWrapper = document.getElementById('content-wrapper');
+    contentWrapper.innerHTML = ``;
+  } else {
+    const contentWrapper = document.createElement('div');
+    contentWrapper.setAttribute('id', 'content-wrapper');
+    contentContainer.appendChild(contentWrapper);
+  }
+}
+
+export { displayTabbedNavigation, resetContentWrapper };
