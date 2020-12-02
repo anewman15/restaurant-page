@@ -1,5 +1,4 @@
 import { resetContentWrapper } from './tabbed_navigation';
-import { displayContentHome } from './content_home';
 
 export default function pageLoad() {
   resetContentWrapper();

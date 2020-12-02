@@ -51,11 +51,44 @@ html {
   margin: 2rem auto;
   padding: 0 2rem;
   font-size: 1.2rem;
+
+  p:last-child {
+    padding-bottom: 1rem;
+  }
 }
 
 #content-home {
   padding-bottom: 20rem;
   background: url('./fried\ chicken.png') bottom right no-repeat;
 
+}
+
+.menu-item {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.menu-details {
+  width: 50rem;
+  margin-right: 3rem;
+  font-size: 1rem;
+
+  p {
+    margin: 0.2rem;
+  }
+}
+
+.menu-image {
+  width: auto;
+  height: auto;
+
+  img {
+    width: 256px;
+    height: 256px;
+  }
 }
 
