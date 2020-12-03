@@ -1,6 +1,6 @@
 import { resetContentWrapper } from './tabbed_navigation';
 
-export default function pageLoad() {
+const pageLoad = () => {
 	resetContentWrapper();
 	const contentWrapper = document.getElementById('content-wrapper');
 	const contentHome = document.createElement('div');
@@ -15,4 +15,6 @@ export default function pageLoad() {
                             <p>Choose any type and weight of chicken one day ahead with our special FancyYumzPick&reg; and pick them directly from the farm using video call </p>
                           `;
 	contentWrapper.appendChild(contentHome);
-}
+};
+
+export default pageLoad;

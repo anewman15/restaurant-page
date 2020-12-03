@@ -1,6 +1,6 @@
 import { resetContentWrapper } from './tabbed_navigation';
 
-export default function displayContentContact() {
+const displayContentContact = () => {
 	resetContentWrapper();
 	const contentWrapper = document.getElementById('content-wrapper');
 	const contentMenu = document.createElement('div');
@@ -30,4 +30,6 @@ export default function displayContentContact() {
                             </div>
                           `;
 	contentWrapper.appendChild(contentMenu);
-}
+};
+
+export default displayContentContact;

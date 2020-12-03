@@ -58,8 +58,12 @@ html {
   background: url('./fried\ chicken.png') bottom right no-repeat;
 }
 
-.menu-item {
+.menu-wrapper {
   max-width: 850px;
+  margin: auto;
+}
+
+.menu-item {
   margin: 1rem 0;
   padding: 0.5rem 0;
   display: flex;
