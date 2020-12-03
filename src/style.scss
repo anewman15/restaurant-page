@@ -64,6 +64,7 @@ html {
 }
 
 .menu-item {
+  max-width: 850px;
   margin: 1rem 0;
   padding: 0.5rem 0;
   display: flex;
@@ -75,7 +76,8 @@ html {
 .menu-details {
   width: 50rem;
   margin-right: 3rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
 
   p {
     margin: 0.2rem;
@@ -89,6 +91,18 @@ html {
   img {
     width: 256px;
     height: 256px;
+  }
+}
+
+.address {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+
+  p {
+    margin: 0.5rem;
   }
 }
 

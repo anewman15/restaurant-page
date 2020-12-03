@@ -8,11 +8,26 @@ export default function displayContentContact() {
   contentMenu.setAttribute('class', 'tab-content');
 
   contentMenu.innerHTML = `
-                            <p>A Contact</p>
-                            <p>Another Contact</p>
-                            <p>Yet Another Contact</p>
-                            <p>One More Contact</p>
-                            <p>The Last Contact</p>
+                            <div class="address">
+                              <div class="">
+                                <p>
+                                  <span><strong>Order Online 7<sup>24</sup></strong> : </span>
+                                  <span> &nbsp;&nbsp;+880 <strong>YUMZCHICKN</strong></span>
+                                </p>
+                              </div>
+                              <hr>
+                              <br>
+                              <div class="">
+                                <p><span>Chandina Kitchen: </span><br>
+                                  <address>
+                                    <strong>Yumz Chick'n</strong><br>
+                                    Baganbari Road,<br>
+                                    Chandina,<br>
+                                    Comilla
+                                  </address>
+                                </p>
+                              </div>
+                            </div>
                           `
   contentWrapper.appendChild(contentMenu);
 }
