@@ -3,7 +3,7 @@ const displayTabbedNavigation = () => {
 	contentContainer.innerHTML = `
                                 <div class="tabs-wrapper">
                                   <div class="logo">
-                                    <a href=""><img src="../src/logo.png" alt=""></a>
+                                    <a href=""><img alt="yumzLogo"></a>
                                   </div>
                                   <div id="tab-home" class="tab">Home</div>
                                   <div id="tab-menu" class="tab">Menu</div>

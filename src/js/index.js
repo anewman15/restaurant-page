@@ -3,6 +3,7 @@ import pageLoad from './page_load';
 import displayContentMenu from './content_menu';
 import displayContentContact from './content_contact';
 import '../style/style.scss';
+import Logo from '../images/logo.png';
 
 displayTabbedNavigation();
 pageLoad();
@@ -17,3 +18,6 @@ contactTab.style.cursor = 'pointer';
 menuTab.addEventListener('click', displayContentMenu);
 homeTab.addEventListener('click', pageLoad);
 contactTab.addEventListener('click', displayContentContact);
+
+const logo = document.querySelector('.logo').querySelector('img');
+logo.src = Logo;

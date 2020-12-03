@@ -8,7 +8,7 @@ html {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: lightblue url('../src/bg-image.jpg') no-repeat center;
+  background: lightblue url('../images/bg-image.jpg') no-repeat center;
   background-size: cover;
 
   h1 {
@@ -55,7 +55,7 @@ html {
 
 #content-home {
   padding-bottom: 20rem;
-  background: url('./fried\ chicken.png') bottom right no-repeat;
+  background: url('../images/fried\ chicken.png') bottom right no-repeat;
 }
 
 .menu-wrapper {

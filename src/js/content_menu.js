@@ -20,7 +20,7 @@ const displayContentMenu = () => {
 																	<p>Price: 480 Tk</p>
 																</div>
 																<div class="menu-image">
-																	<img src="./logo.png">
+																	<img src="../src/images/logo.png">
 																</div>
 															</div>
 															<hr>
@@ -33,7 +33,7 @@ const displayContentMenu = () => {
 																	<p>Price: 320 Tk</p>
 																</div>
 																<div class="menu-image">
-																<img src="./logo.png">
+																<img src="../src/images/logo.png">
 																</div>
 															</div>
 														</div>
