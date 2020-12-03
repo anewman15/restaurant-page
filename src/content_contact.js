@@ -1,13 +1,13 @@
 import { resetContentWrapper } from './tabbed_navigation';
 
 export default function displayContentContact() {
-  resetContentWrapper();
-  const contentWrapper = document.getElementById('content-wrapper');
-  const contentMenu = document.createElement('div');
-  contentMenu.setAttribute('id', 'content-menu');
-  contentMenu.setAttribute('class', 'tab-content');
+	resetContentWrapper();
+	const contentWrapper = document.getElementById('content-wrapper');
+	const contentMenu = document.createElement('div');
+	contentMenu.setAttribute('id', 'content-menu');
+	contentMenu.setAttribute('class', 'tab-content');
 
-  contentMenu.innerHTML = `
+	contentMenu.innerHTML = `
                             <div class="address">
                               <div class="">
                                 <p>
@@ -28,6 +28,6 @@ export default function displayContentContact() {
                                 </p>
                               </div>
                             </div>
-                          `
-  contentWrapper.appendChild(contentMenu);
+                          `;
+	contentWrapper.appendChild(contentMenu);
 }

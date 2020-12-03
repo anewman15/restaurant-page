@@ -1,13 +1,13 @@
 import { resetContentWrapper } from './tabbed_navigation';
 
 export default function displayContentMenu() {
-  resetContentWrapper();
-  const contentWrapper = document.getElementById('content-wrapper');
-  const contentMenu = document.createElement('div');
-  contentMenu.setAttribute('id', 'content-menu');
-  contentMenu.setAttribute('class', 'tab-content');
+	resetContentWrapper();
+	const contentWrapper = document.getElementById('content-wrapper');
+	const contentMenu = document.createElement('div');
+	contentMenu.setAttribute('id', 'content-menu');
+	contentMenu.setAttribute('class', 'tab-content');
 
-  contentMenu.innerHTML = `
+	contentMenu.innerHTML = `
                             <div class="menu-item">
                               <div class="menu-details">
                                 <p>Yumz Crispy Fried Chicken</p>
@@ -35,6 +35,6 @@ export default function displayContentMenu() {
                               <img src="./logo.png">
                               </div>
                             </div>
-                          `
-  contentWrapper.appendChild(contentMenu);
+                          `;
+	contentWrapper.appendChild(contentMenu);
 }
