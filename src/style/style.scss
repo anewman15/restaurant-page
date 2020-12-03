@@ -1,0 +1,106 @@
+html {
+  min-width: 380px;
+}
+
+.hero {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: lightblue url('../images/bg-image.jpg') no-repeat center;
+  background-size: cover;
+
+  h1 {
+    margin-left: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(248, 240, 240);
+  }
+}
+
+.tabs-wrapper {
+  margin: 0.2rem auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.tab {
+  padding: 1rem;
+  background: rgba(160, 110, 110, 0.699);
+  border-left: 0.5px solid #fff;
+  border-right: 0.5px solid #fff;
+}
+
+.logo {
+  margin-right: 3rem;
+  width: 56px;
+  height: 56px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.tab-content {
+  width: 95%;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+}
+
+#content-home {
+  padding-bottom: 20rem;
+  background: url('../images/fried\ chicken.png') bottom right no-repeat;
+}
+
+.menu-wrapper {
+  max-width: 850px;
+  margin: auto;
+}
+
+.menu-item {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.menu-details {
+  width: 50rem;
+  margin-right: 3rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+
+  p {
+    margin: 0.2rem;
+  }
+}
+
+.menu-image {
+  width: auto;
+  height: auto;
+
+  img {
+    width: 256px;
+    height: 256px;
+  }
+}
+
+.address {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+
+  p {
+    margin: 0.5rem;
+  }
+}
