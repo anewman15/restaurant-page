@@ -2,7 +2,7 @@ import { displayTabbedNavigation } from './tabbed_navigation';
 import pageLoad from './page_load';
 import displayContentMenu from './content_menu';
 import displayContentContact from './content_contact';
-import './style.scss';
+import '../style/style.scss';
 
 displayTabbedNavigation();
 pageLoad();
